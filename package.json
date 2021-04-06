@@ -4,7 +4,7 @@
   "description": "NOTE 1 - PROJET TYPESCRIPT",
   "main": "index.ts",
   "scripts": {
-    "start": "node index.ts",
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/JEANFRANCOISTeddy/PROJET-TYPESCRIPT#readme",
   "devDependencies": {
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
   }
 }
