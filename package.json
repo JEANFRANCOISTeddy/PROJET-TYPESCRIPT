@@ -1,0 +1,23 @@
+{
+  "name": "projet-typescript",
+  "version": "1.0.0",
+  "description": "NOTE 1 - PROJET TYPESCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEANFRANCOISTeddy/PROJET-TYPESCRIPT.git"
+  },
+  "author": "JEAN-FRANCOIS Teddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEANFRANCOISTeddy/PROJET-TYPESCRIPT/issues"
+  },
+  "homepage": "https://github.com/JEANFRANCOISTeddy/PROJET-TYPESCRIPT#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
