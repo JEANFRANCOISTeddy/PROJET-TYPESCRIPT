@@ -1,5 +1,6 @@
-import {Pokemon} from './controllers/pokemon.controller';
+import {Pokemon} from './controllers';
 
-const tiplouf = new Pokemon("Tiplouf", 8);
+const PokeA = new Pokemon("Scorplack", 65, 2, 1, 100, 50);
+const PokeB = new Pokemon("Polaryu", 85, 2, 1, 75, 90);
 
-console.log(tiplouf);
+console.log( PokeA.fight(PokeB) );

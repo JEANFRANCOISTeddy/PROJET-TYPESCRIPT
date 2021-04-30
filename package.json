@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JEANFRANCOISTeddy/PROJET-TYPESCRIPT.git#readme",
   "dependencies": {
+    "chalk": "^4.1.1",
     "ts-node": "^9.1.1"
   },
   "devDependencies": {
