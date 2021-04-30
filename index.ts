@@ -1,4 +1,5 @@
-import { Pokemon} from "./models/pokemon.model";
+import {Pokemon} from './controllers/pokemon.controller';
 
-const salameche = new Pokemon("Salamèche");
-console.log(salameche);
+const tiplouf = new Pokemon("Tiplouf", 8);
+
+console.log(tiplouf);
