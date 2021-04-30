@@ -22,24 +22,24 @@ export class Pokemon {
         return adversary.hp - damage;
     }
 
-    public fight(adversary: Pokemon) {
+    public fight(adversary: Pokemon): Pokemon {
         let i = 0;
         while(this.hp > 0 && adversary.hp > 0) {
             if(i % 2 == 0){
                 adversary.hp = this.attack(adversary);
-                console.log(chalk.red(adversary.name + " pokemon has " + adversary.hp + " hp left"));
+                //console.log(chalk.red(adversary.name + " pokemon has " + adversary.hp + " hp left"));
             }else{
                 this.hp = adversary.attack(this);
-                console.log(chalk.blue(this.name + " pokemon has " + this.hp + " hp left"));
+                //console.log(chalk.blue(this.name + " pokemon has " + this.hp + " hp left"));
             }
 
             i++;
         }
 
         if(this.hp <= 0)
-            return this;
-        else
             return adversary;
+        else
+            return this;
 
     }
 
